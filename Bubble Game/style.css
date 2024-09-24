@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Poppins:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(118, 143, 190, 0.904);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#panel {
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#pan-top {
+    padding: 0 30%;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(41, 64, 107);
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box {
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 5px;
+    color: rgb(32, 44, 107);
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.elem {
+    /* width: 30%; */
+    display: flex;
+    /* background-color: red; */
+    align-items: center;
+    gap: 20px;
+}
+
+.elem h2{
+    font-weight: 500;
+    font-size: 25px;
+}
+
+#pan-btm {
+    padding: 20px;
+    width: 100%;
+    height: calc(100% - 100px);
+    /* background-color: black; */
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+#pan-btm h1{
+    font-size: 200px;
+    color: rgb(25, 36, 58);
+    text-align: center;
+}
+
+.bubble{
+    height: 60px;
+    width: 60px;
+    background-color:rgb(99, 129, 185);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.bubble:hover{
+    background-color: rgb(23, 47, 91);
+    cursor: pointer;
+}
